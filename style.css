@@ -6,6 +6,8 @@ body {
     background-attachment: fixed;
     font-weight: bold;
     font-family:Montserrat;
+    display: flex;
+    flex-direction: column;
    }
    * {
     margin: 0;
@@ -19,7 +21,7 @@ h2 {
 }
 img {
     width: 500px;
-    height: 600px;
+    height: 720px;
 }
 p {
     color: rgb(0, 0, 0);
@@ -65,11 +67,12 @@ header {
     display: flex;
     justify-content: center;
     position: fixed;
-    left: 27%;
+    align-self: center;
     background: rgba(0,0,0,0.8);
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
+    text-align: center;
 }
 .Top_menu a {
     vertical-align: middle;
@@ -91,7 +94,9 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    left: 27%;
     align-self: center;
+    border-radius: 20px;
    }
-
+.social i{
+    font-size: 64px;
+}
