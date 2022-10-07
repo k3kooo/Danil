@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+    font-family:Montserrat;
+   }
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+}
+img {
+    width: 500px;
+    height: 600px;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 25px;
+}
+span {
+    color: rgb(0, 0, 0);
+font-size: 30px;
+margin-left: 10px;
+}
+a {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+}
+nav {
+    margin: 0 auto;
+   }
+   nav:before {
+    content:'';
+    display: block;
+    height:75px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+   }
+.Top_menu a:hover {
+    color: rgb(255, 0, 242);
+}
+.Top_menu li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.Top_menu {
+    
+    vertical-align: middle;
+    display: inline-block;
+}
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 27%;
+    background: rgba(0,0,0,0.8);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.Top_menu a {
+    vertical-align: middle;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+i {
+    font-size: 50px;
+    vertical-align: middle;
+}
+.box {
+    background: rgba(0,0,0,0.2);
+    border: 2px solid;
+    margin-bottom: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 27%;
+    align-self: center;
+   }
+
