@@ -22,6 +22,8 @@ h2 {
 .container__photo {
     width: 500px;
     height: 720px;
+    display: flex;
+    justify-content: right;
 }
 p {
     color: rgb(0, 0, 0);
