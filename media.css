@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    position: absolute;
+    
    }
 p {font-size: 25px;}
 h2 {font-size: 40px;}
@@ -33,5 +33,9 @@ h2 {font-size: 40px;}
     border-radius: 20px;
     padding: 20px;
    }
+.social {
+    display: flex;
+    justify-content: center;
+}
 }
 
