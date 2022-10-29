@@ -1,0 +1,35 @@
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+}
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+    font-family:Montserrat;
+    display: flex;
+    flex-direction: column;
+   }
+p {font-size: 25px;}
+h2 {font-size: 40px;}
+.box {
+    background: rgba(0,0,0,0.2);
+    border: 2px solid;
+    margin-bottom: 20px;
+    width: 450px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 20px;
+    padding: 20px;
+   }
+}
+
