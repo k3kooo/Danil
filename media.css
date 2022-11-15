@@ -37,7 +37,7 @@
         justify-content: center;
     }
     }
-    
+
     @media screen and (min-device-width: 280px) and (max-device-width: 280px) {
         h2 {
             color: rgb(0, 0, 0);
@@ -56,8 +56,9 @@
             max-width: 100%;
             margin: 0px;
            }
-        p {font-size: 25px;}
-        h2 {font-size: 40px;}
+        p {font-size: 35px;}
+        h2 {font-size: 50px;}
+        span {font-size: 45px;}
         .box {
             background: rgba(0,0,0,0.2);
             border: 2px solid;
